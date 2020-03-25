@@ -1,0 +1,122 @@
+/* style.css - til dine custom styles */
+
+/**************************************************/
+/* WRITE MOBILE STYLES AND GENERAL STYLES (fonts, colors etc.) HERE BEFORE THE FIRST BREAKPOINT */
+/**************************************************/
+
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+kk p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: white;
+}
+
+h2,
+h3,
+h4 {
+    color: red;
+    font-family: 'Merriweather', serif;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+#footer {
+    background-color: white;
+}
+
+#forhandler {
+    background-color: white;
+}
+
+.hash {
+    color: white;
+}
+
+#graf {
+    background-color: whitesmoke
+}
+
+#smk {
+    background-color: white;
+}
+
+#hero {
+    background-color: white;
+}
+
+#grandpome {
+    background-color: white;
+}
+
+#historie {
+    background-color: whitesmoke
+}
+
+#voresis {
+    background-color: white;
+
+}
+
+#tilbud {
+    background-color: whitesmoke;
+
+}
+
+#omos {
+    background-color: whitesmoke;
+
+}
+
+/**************************************************/
+/* Small devices (landscape phones, 576px and up) */
+/**************************************************/
+@media (min-width: 576px) {
+    video {
+        width: 510px;
+        height: 300px;
+    }
+
+}
+
+/* END "sm-" 576px and up */
+
+
+/**************************************************/
+/* // Medium devices (tablets, 768px and up) */
+/**************************************************/
+@media (min-width: 768px) {
+    #hero {}
+
+    #voresis {}
+
+    #tilbud {}
+
+    #omos {}
+}
+
+/* END "md-" 768px and up */
+
+
+/**************************************************/
+/* // Large devices (desktops, 992px and up) */
+/**************************************************/
+@media (min-width: 992px) {
+
+    /* END "lg-" 992px and up */
+}
+
+/**************************************************/
+/* // Extra large devices (large desktops, 1200px and up) */
+/**************************************************/
+@media (min-width: 1200px) {
+
+    /* END "xl-" 1200px and up */
+}
